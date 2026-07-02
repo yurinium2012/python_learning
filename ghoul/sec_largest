@@ -1,0 +1,12 @@
+arr = [34, 8, 4, 54, 3, 349]
+largest = -1
+second_largest = 0
+
+for num in arr:
+    if num > largest:
+        second_largest = largest
+        largest = num
+    elif num > second_largest and num != largest:
+        second_largest = num
+
+print("Second Largest element is:", second_largest)

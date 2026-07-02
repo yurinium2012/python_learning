@@ -1,0 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-5, 5)
+
+y = x**2 - 4*x+4
+
+plt.plot(x,y, linestyle="--", marker="+", color="y", label = 'quadratic function')
+
+plt.title("quadratic function")
+plt.xlabel("xx")
+plt.ylabel("yy")
+plt.grid("true")
+plt.legend()
+plt.show()

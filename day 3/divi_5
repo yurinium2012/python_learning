@@ -1,0 +1,10 @@
+def print_divisible_by_5():
+    for x in range(1, 77):
+        if x % 5 == 0:
+            return True
+        else:
+            return False
+        
+if "div_5" in __"main"__:
+    print_divisible_by_5()
+

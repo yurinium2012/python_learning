@@ -1,0 +1,4 @@
+def welcome():
+    print("welcome")
+def greet (name):
+    print(f"welcome, {name}!")

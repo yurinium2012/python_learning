@@ -1,0 +1,4 @@
+even_numbers = [x for x in range(0, 21) if (lambda x: x % 2 == 0)(x)]
+
+print("the even numbers:")
+print(even_numbers)
